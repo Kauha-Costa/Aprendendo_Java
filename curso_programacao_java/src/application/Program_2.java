@@ -42,7 +42,6 @@ public class Program_2 {
 		else {
 			System.out.println("Larger area: Y");
 		}
-				
 		sc.close();
 	}
 
