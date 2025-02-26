@@ -14,9 +14,7 @@ public class Program {
         String name = sc.nextLine();
         System.out.print("Price: ");
         double price = sc.nextDouble();
-        System.out.print("Quantity in stock: ");
-        int quantity = sc.nextInt();
-        application2.entities.Product product = new Product(name, price, quantity);
+        application2.entities.Product product = new Product(name, price);
   
 
         System.out.println();
@@ -24,7 +22,7 @@ public class Program {
 
         System.out.println();
         System.out.println("Enter the number of the products to be added in stock: ");
-        quantity = sc.nextInt();
+        int quantity = sc.nextInt();
         product.addProducts(quantity);
 
         System.out.println();
