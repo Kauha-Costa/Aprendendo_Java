@@ -1,3 +1,4 @@
+package Comeco;
 import java.util.Locale;
 
 public class Numeracoes {
