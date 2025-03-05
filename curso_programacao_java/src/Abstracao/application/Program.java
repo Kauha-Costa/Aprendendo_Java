@@ -24,7 +24,7 @@ public class Program {
             System.out.println("Shape #" + i + " data: ");
             System.out.print("Rectangle or Circle (r/c)? ");
             char ch = sc.next().charAt(0);
-            System.out.println("Color (BLACK/BLUE/RED): ");
+            System.out.print("Color (BLACK/BLUE/RED): ");
             Color color = Color.valueOf(sc.next());
             if (ch == 'r'){
                 System.out.print("Width: ");
@@ -34,7 +34,7 @@ public class Program {
                 list.add(new Rectangle(color, width, height));
             }
             else {
-                System.out.println("Radius: ");
+                System.out.print("Radius: ");
                 double radius = sc.nextDouble();
                 list.add(new Circle(color, radius));
             }
