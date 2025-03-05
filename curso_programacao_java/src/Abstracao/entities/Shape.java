@@ -1,7 +1,7 @@
 package Abstracao.entities;
 import Abstracao.enums.Color;
 
-public class abstract Shape {
+public abstract class Shape {
 
     private Color color;
 
